@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B6664FD42EC967B700D8CB6B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6664FD32EC967B700D8CB6B /* Metal.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B6664FBD2EC9661B00D8CB6B /* Metal_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6664FBD2EC9661B00D8CB6B /* Metal_Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal_Triangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6664FD32EC967B700D8CB6B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6664FD42EC967B700D8CB6B /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				B6664FBF2EC9661B00D8CB6B /* Metal_Sample */,
+				B6664FD22EC967B700D8CB6B /* Frameworks */,
 				B6664FBE2EC9661B00D8CB6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,17 +47,25 @@
 		B6664FBE2EC9661B00D8CB6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6664FBD2EC9661B00D8CB6B /* Metal_Sample.app */,
+				B6664FBD2EC9661B00D8CB6B /* Metal_Triangle.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B6664FD22EC967B700D8CB6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6664FD32EC967B700D8CB6B /* Metal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6664FBC2EC9661B00D8CB6B /* Metal_Sample */ = {
+		B6664FBC2EC9661B00D8CB6B /* Metal_Triangle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6664FCF2EC9661E00D8CB6B /* Build configuration list for PBXNativeTarget "Metal_Sample" */;
+			buildConfigurationList = B6664FCF2EC9661E00D8CB6B /* Build configuration list for PBXNativeTarget "Metal_Triangle" */;
 			buildPhases = (
 				B6664FB92EC9661B00D8CB6B /* Sources */,
 				B6664FBA2EC9661B00D8CB6B /* Frameworks */,
@@ -63,11 +78,11 @@
 			fileSystemSynchronizedGroups = (
 				B6664FBF2EC9661B00D8CB6B /* Metal_Sample */,
 			);
-			name = Metal_Sample;
+			name = Metal_Triangle;
 			packageProductDependencies = (
 			);
 			productName = Metal_Sample;
-			productReference = B6664FBD2EC9661B00D8CB6B /* Metal_Sample.app */;
+			productReference = B6664FBD2EC9661B00D8CB6B /* Metal_Triangle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -84,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B6664FB82EC9661B00D8CB6B /* Build configuration list for PBXProject "Metal_Sample" */;
+			buildConfigurationList = B6664FB82EC9661B00D8CB6B /* Build configuration list for PBXProject "Metal_Triangle" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -98,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6664FBC2EC9661B00D8CB6B /* Metal_Sample */,
+				B6664FBC2EC9661B00D8CB6B /* Metal_Triangle */,
 			);
 		};
 /* End PBXProject section */
@@ -302,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6664FB82EC9661B00D8CB6B /* Build configuration list for PBXProject "Metal_Sample" */ = {
+		B6664FB82EC9661B00D8CB6B /* Build configuration list for PBXProject "Metal_Triangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6664FCD2EC9661E00D8CB6B /* Debug */,
@@ -311,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6664FCF2EC9661E00D8CB6B /* Build configuration list for PBXNativeTarget "Metal_Sample" */ = {
+		B6664FCF2EC9661E00D8CB6B /* Build configuration list for PBXNativeTarget "Metal_Triangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6664FD02EC9661E00D8CB6B /* Debug */,
